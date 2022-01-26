@@ -26,7 +26,6 @@
     <link href="assets/css/color.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
-
 </head>
 
 
@@ -45,23 +44,26 @@
                     <div class="animation-preloader">
                         <div class="spinner"></div>
                         <div class="txt-loading">
-                            <span data-text-preloader="b" class="letters-loading">
+                            <span data-text-preloader="b" class="letters-loading i18n" contrastName="index.huan">
                                 b
                             </span>
-                            <span data-text-preloader="i" class="letters-loading">
+                            <span data-text-preloader="i" class="letters-loading i18n" contrastName="index.yin">
                                 i
                             </span>
-                            <span data-text-preloader="t" class="letters-loading">
+                            <span data-text-preloader="t" class="letters-loading i18n" contrastName="index.shi">
                                 t
                             </span>
-                            <span data-text-preloader="h" class="letters-loading">
+                            <span data-text-preloader="h" class="letters-loading i18n" contrastName="index.yong">
                                 h
                             </span>
-                            <span data-text-preloader="l" class="letters-loading">
+                            <span data-text-preloader="l" class="letters-loading i18n" contrastName="index.o">
                                 l
                             </span>
-                            <span data-text-preloader="o" class="letters-loading">
+                            <span data-text-preloader="o" class="letters-loading i18n" contrastName="index.b">
                                 o
+                            </span>
+                            <span data-text-preloader="o" class="letters-loading i18n" contrastName="index.s">
+                                
                             </span>
                         </div>
                     </div>
@@ -118,7 +120,7 @@
                             <nav class="main-menu navbar-expand-md navbar-light">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
-                                        <li class="current dropdown"><a href="index.html">Home</a>
+                                        <li class="current dropdown"><a href="index.html" class="i18n" contrastName="index.home">Home</a>
                                             <ul>
                                                 <li><a href="index.html">Data Science</a></li>
                                                 <li><a href="index-2.html">Artificial intelligence</a></li>
@@ -132,14 +134,14 @@
                                                 <li><a href="index-rtl.html">RTL Home</a></li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown"><a href="index.html">Company</a>
+                                        <li class="dropdown"><a href="index.html" class="i18n" contrastName="index.profile">Company</a>
                                             <ul>
                                                 <li><a href="about.html">About Us</a></li>
                                                 <li><a href="contact.html">Contact Us</a></li>
                                                 <li><a href="error.html">404</a></li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown"><a href="index.html">Services</a>
+                                        <li class="dropdown"><a href="index.html" class="i18n" contrastName="index.service">Services</a>
                                             <ul>
                                                 <li><a href="service.html">Our Services</a></li>
                                                 <li><a href="advertising-marketing.html">Advertising & Marketing</a>
@@ -166,6 +168,18 @@
                                                 <li><a href="blog-details.html">Blog Details</a></li>
                                             </ul>
                                         </li>
+
+                                        <!-- <li class="dropdown"><a class="i18n" href="javascript: 0;" contrastName="index.language"></a>
+                                            <ul>
+                                                <li><a href="javascript: 0;" id="zh" contrastName="index.zh">中文</a></li>
+                                                <li><a href="javascript: 0;" id="en" contrastName="index.en">English</a></li>
+                                            </ul>
+                                        </li> -->
+                                        <select id="language" style="color: #fff; margin-top: 12px; margin-left: 10px;">
+                                            <option value="zh_CN">中文简体</option>
+                                            <option value="en_US">English</option>
+                                          </select>
+
                                         <li class="dropdown"><a href="index.html">Elements</a>
                                             <div class="megamenu">
                                                 <div class="row clearfix">
@@ -1881,7 +1895,8 @@
     <script src="assets/js/tilt.jquery.js"></script>
     <script src="assets/js/isotope.js"></script>
     <script src="assets/js/bxslider.js"></script>
-
+    <script type="text/javascript" src="./assets/js/jquery.i18n.properties.js"></script>
+    <script id="properties" type="text/javascript" src="./assets/js/language.js"></script>
     <!-- main-js -->
     <script src="assets/js/script.js"></script>
 
