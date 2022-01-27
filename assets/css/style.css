@@ -2858,11 +2858,11 @@ h3 a:hover{
 
 .progress-box .count-text{
   position: absolute;
-  left: -3px;
+  left: -8px;
   top: -27px;
-  width: 41px;
-  height: 41px;
-  line-height: 41px;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
   text-align: center;
   font-size: 16px;
   color: #3a1354;
