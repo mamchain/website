@@ -5618,6 +5618,10 @@ readers do not read off random characters that represent icons */
 .fa-twitter:before {
   content: "\f099"; }
 
+.fa-github{
+  content: "\f09b";
+}
+
 .fa-twitter-square:before {
   content: "\f081"; }
 
